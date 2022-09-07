@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(68, 66, 66);
+    background-image: url("autumn.jpg");
+    background-size: cover;
+}
+
+h1{
+    background-color: rgb(128,128,128,.8);
+    color: azure;
+    margin-left: 20px;
+    width: 300px;
+}
+h3{
+    background-color: rgb(128,128,128,.8);
+    color: azure;
+    width: 100px;
+}
+li{
+    background-color:rgb(128,128,128,.6);
+    width: 100px;
+    color: aliceblue;
+
+}
+a{
+    color: azure;
+}
+p{
+
+    background-color: rgb(128,128,128,.6);
+    color: azure;
+    margin-left: 20px;
+    width: 900px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
