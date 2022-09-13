@@ -1,0 +1,74 @@
+html, body{
+    background-color: rgb(68, 66, 66);
+    background-image: url("autumn.jpg");
+    background-size: cover;
+    height: 100%;
+    margin: 0px;
+}
+.bodydiv{
+    width: 1200px;
+    margin-left: 40px;
+    margin-top: 0px;
+    background-color: rgb(128,128,128,.8);
+    height: 100%;
+    position:absolute;
+
+}
+button{
+    color: azure;
+    background-color: black;
+    width:400px;
+
+}
+
+h1{
+    color: azure;
+    width:fit-content;
+    display: inline;
+    margin-left: 30px;
+    
+}
+h3{
+    color: azure;
+
+    margin-left: 40px;
+    font-size: 40px;
+}
+h4{
+    color: azure;
+
+    margin-left: 20px;
+    font-size: 30px;
+}
+li{
+    background-color:rgb(128,128,128,.6);
+    width: 200px;
+    color: aliceblue;
+}
+.butlist{
+    position: fixed;
+    right: 20px;
+    font-size: 20px;
+}
+.bigbutton{
+    position: relative;
+    top: 5px;
+    font-size: 40px;
+}
+.transparent{
+    background-color: rgb(128,128,128,0);
+}
+a{
+    color: azure;
+}
+p{
+    color: azure;
+    margin-left: 30px;
+    width: 900px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.stylechange{
+    position: absolute;
+    bottom: 5px;
+}
