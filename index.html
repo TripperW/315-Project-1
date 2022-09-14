@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>Tripper Wright's Website</title>
         <link rel="stylesheet" type="text/css" href="style1.css" id="page_style"/>
-    </head>
-    <div class="bodydiv">
-      <div class="stylechange">
-        <button type='button' onclick='light_mode()'>Light Mode</button>
-      <button type='button' onclick='dark_mode()'>Dark Mode</button>
-      </div>
-      <div>
+        </head>
+
+
+        <body>
+
+         <script src="function.js">
+          if(localStorage.getItem("style")=="style2.css"){
+          //change the css
+          document.getElementById('page_style').setAttribute("href", "style2.css");
+        }
+         </script>
+
+          <div class="bodydiv">
+
+            <div>
+              <h1>Tripper Wright's Website</h1>
+            </div>
+
+          <div class="stylechange">
+
+          <button type='button' onclick="style1()">Change Style</button>
+
+  
+        
+          </div>
+
+          <div>
           <ul class="butlist">
             <li>
-              <a href="./Tripper_Wright_Resume_2022.pdf">My Resume</a>
+              <a class="smallbutton" href="./Tripper_Wright_Resume_2022.pdf">My Resume</a>
           </li>
           <li>
-            <a href="https://github.com/TripperW">My GitHub</a>
+            <a  class="smallbutton" href="https://github.com/TripperW">My GitHub</a>
           </li>
           <li >
-            <a href="./aboutMe.html">About Me</a>
+            <a  class="smallbutton" href="./aboutMe.html">About Me</a>
           </li>
         <li >
-          <a href="./portfolio.html">Portfolio</a>
+          <a class="smallbutton"  href="./portfolio.html">Portfolio</a>
         </li>
         <li >
-          <a href="./qualifications.html">Qualifications</a>
+          <a  class="smallbutton" href="./qualifications.html">Qualifications</a>
         </li>
         <li>
-          <a href="./service.html">Service</a>
-        </li>
-              
+          <a class="smallbutton"  href="./service.html">Service</a>
+        </li> 
           </ul>
       </div>
-      <div>
-        <h1>Tripper Wright's Website</h1>
-      </div>
+
       <div>    
           <p>Welcome to my website! My name is Tripper Wright, a Class of '24 <a href="https://engineering.tamu.edu/cse/index.html">Computer Science</a> Major at <a href="https://www.tamu.edu/">Texas A&M College Station.</a></p>
       </div>
+
       <ul>
         <li class="transparent">
           <a class="bigbutton" href="./aboutMe.html">About Me</a>
@@ -52,11 +71,15 @@
         <a class="bigbutton" href="./service.html">Service</a>
       </li>
       </ul>
-      <div>
+
+      <div class="sidebar">
         <h4>Contact Methods: </h4>
         <p>Phone: 830-261-0544</p>
         <p>Email: tswright@tamu.edu</p>
       </div>
+
     </div>
+
+    </body>
     
 </html>

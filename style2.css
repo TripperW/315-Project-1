@@ -1,0 +1,122 @@
+html, body{
+    background-color:deepskyblue;
+    background-image: url("ace_banner.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+
+}
+
+.bodydiv{
+    width: 1200px;
+    margin-top: 290px;
+    background-color:whitesmoke;
+    height: 100%;
+    left: 20%;
+    position:absolute;
+
+}
+
+button{
+
+    position: fixed;
+    bottom:10px;
+    left: 500px;
+    width:400px;
+    background-color: mediumblue;
+    color: ghostwhite;
+
+}
+
+.button2{
+    left: 950px;
+}
+
+h1{
+    position: absolute;
+    top: -60mm;
+    color:ghostwhite;
+    font-size: 60px;
+    width:fit-content;
+    display: inline;
+    left: -50mm;
+    
+}
+
+h3{
+    position: absolute;
+    top: -60mm;
+    color:ghostwhite;
+    font-size: 60px;
+    width:fit-content;
+    display: inline;
+    left: -50mm;
+}
+
+h4{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+li{
+    background-color: mediumblue;
+    display: inline-block;
+    height: 30px;
+    width: 150px
+    
+}
+
+.butlist{  
+    display: inline-block;
+}
+
+.bigbutton{
+    position: relative;
+    top: 5px;
+    font-size: 40px;
+    color:blue;
+}
+
+.transparent{
+    background-color: rgb(128,128,128,0);
+    display: block;
+    margin-top: 20px;
+    height: 100px;
+    width: fit-content;
+    padding-left: 0%;
+}
+
+a{
+    color: black;
+}
+
+p{
+    margin-left: 30px;
+    max-width: 900px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.stylechange{
+    position: absolute;
+    bottom: 5px;
+}
+
+.smallbutton{
+    color: ghostwhite;
+    padding-left: 10%;
+    padding-right: 12%;
+}
+
+.sidebar{
+    position: fixed;
+    left: 10px;
+    top: 300px;
+    color:ghostwhite;
+    width: 300px;
+}
+
+.backbutton{
+    position: static;
+    margin-left: 30px;
+    font-size: 60px;
+}

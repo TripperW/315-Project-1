@@ -5,6 +5,7 @@ html, body{
     height: 100%;
     margin: 0px;
 }
+
 .bodydiv{
     width: 1200px;
     margin-left: 40px;
@@ -14,6 +15,7 @@ html, body{
     position:absolute;
 
 }
+
 button{
     color: azure;
     background-color: black;
@@ -28,39 +30,47 @@ h1{
     margin-left: 30px;
     
 }
+
 h3{
     color: azure;
 
     margin-left: 40px;
     font-size: 40px;
 }
+
 h4{
     color: azure;
 
     margin-left: 20px;
     font-size: 30px;
 }
+
 li{
     background-color:rgb(128,128,128,.6);
     width: 200px;
     color: aliceblue;
 }
+
 .butlist{
     position: fixed;
     right: 20px;
     font-size: 20px;
 }
+
 .bigbutton{
     position: relative;
     top: 5px;
     font-size: 40px;
 }
+
 .transparent{
     background-color: rgb(128,128,128,0);
 }
+
 a{
     color: azure;
 }
+
 p{
     color: azure;
     margin-left: 30px;
@@ -68,6 +78,7 @@ p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
 }
+
 .stylechange{
     position: absolute;
     bottom: 5px;
